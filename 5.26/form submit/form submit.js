@@ -4,7 +4,7 @@
 #异步提交有哪几种方法；
 原生封装//jquery 
 1.onsubmit="return function() {}" button type = 'image' 2.封装成ajax 3.jquery
-get post 方法 “
+get post 方法 get和post分别对应HttpServlet中的doGet()和doPost()方法 url刷新时get可以不用重复提交原来提交的数据,而post刷新需再提交.
 四种提交方式 button/input submit提交 form.submit 提交 form.onsubmit='return formSubmit()' function formSubmit () {retuen boolen}
 页面不跳转提交  异步提交ajax 在form onsubmit函数中发送ajax jQuery ajaxSubmit，     iframe提交
 待完善。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
